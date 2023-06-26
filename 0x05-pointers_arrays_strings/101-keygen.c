@@ -13,7 +13,7 @@ int main(void)
 
 	sum = 0;
 
-	srand(time[NULL]);
+	srand(time(NULL));
 
 	for (i = 0; i < 100; i++)
 	{
@@ -29,5 +29,6 @@ int main(void)
 			break;
 		}
 	}
+
 	return (0);
 }
